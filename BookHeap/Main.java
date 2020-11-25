@@ -9,7 +9,7 @@ public class Main {
 
 		MaxHeap MH = new MaxHeap();
 
-		Book[] books = { new Book("Life of Pi"), new Book("Neuromancer"), new Book("Looking Glass"), new Book("Ready Player 1") };
+		Book[] books = { new Book("Photography"), new Book("Neuromancer"), new Book("Looking Glass"), new Book("Ready Player 1") };
 		MH.buildHeap(books);
 		System.out.println("**Build heap was used to populate the first few Books in this heap from an array.**");
 
