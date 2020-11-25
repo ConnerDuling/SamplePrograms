@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 
@@ -9,7 +9,7 @@ public class main {
 
 		MaxHeap MH = new MaxHeap();
 
-		Book[] books = { new Book("Necronomicon"), new Book("Liches-4-Dummies"), new Book("Fireball"), new Book("Adam's Sin") };
+		Book[] books = { new Book("Life of Pi"), new Book("Neuromancer"), new Book("Looking Glass"), new Book("Ready Player 1") };
 		MH.buildHeap(books);
 		System.out.println("**Build heap was used to populate the first few Books in this heap from an array.**");
 
