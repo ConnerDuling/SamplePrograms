@@ -20,7 +20,7 @@ public class Main {
 			} else {
 				System.out.println("The Heap as it is stored as an array: " + MH.toString());
 				System.out.println();
-				System.out.println("The Heap  sorted alphabetically: " + MH.sortedPrint());
+				System.out.println("The Heap sorted alphabetically: " + MH.sortedPrint());
 				System.out.println();
 			}
 
