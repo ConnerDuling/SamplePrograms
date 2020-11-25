@@ -3,10 +3,10 @@ import java.io.Serializable;
 /**
  * The Book class represents a standard book, consisting of a title
  */
-public class Tome implements Cloneable, Comparable, Serializable {
+public class Book implements Cloneable, Comparable, Serializable {
 	private String title;
 
-	Tome(String title) {
+	Book(String title) {
 		this.title = title;
 	}
 
@@ -21,7 +21,7 @@ public class Tome implements Cloneable, Comparable, Serializable {
 	 *         greater, or equal to the value calling this method.
 	 */
 	public int compareTo(Object o) {
-		String anotherString = ((Tome) o).title;
+		String anotherString = ((Book) o).title;
 		return this.title.compareTo(anotherString);
 	}
 
