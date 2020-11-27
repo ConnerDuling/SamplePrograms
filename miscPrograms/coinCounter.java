@@ -2,10 +2,8 @@ import java.util.Scanner;
 
 public class coinCounter {
 
-	// Find the minimum number of coins required to make n cents.
+	// Find the minimum number of coins required to make n dollars.
 	// You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
-	// For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢,
-	// and a 1¢.
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
